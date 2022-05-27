@@ -58,5 +58,13 @@ public class initBrowser {
             System.out.println(e);
         }
     }
+    public static void clickEle(By loc){
+        try{
+            driver.findElement(loc);
+
+        }catch (Exception e){
+            System.out.println(e);
+        }
+    }
 
 }

@@ -11,6 +11,7 @@ public class demoSelenium extends initBrowser{
     public static void main(String[] args) throws IOException {
         initBrowser.openAut();
         initBrowser.enterText(By.xpath("//input[@type='search']"),"Shoes");
+        initBrowser.clickEle(By.xpath("(//button[@type='button'])[2]"));
 
 
     }
